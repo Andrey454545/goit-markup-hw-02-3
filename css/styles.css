@@ -18,8 +18,8 @@
 body{
     /*background-color: #FFFFFF; */ /* фон документа */
     background-color: var(--primary-white-color);
-    color: var(--primary-text-color);  
-    
+    color: var(--primary-text-color); 
+    font-family: 'Roboto';
 } 
 
 /* селектор потомка (всі ссилки а)*/
@@ -32,10 +32,9 @@ ul{
 /* header */
 .logo-header{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
@@ -45,11 +44,12 @@ ul{
     color: #000000;
 }
 
-.Портфоліо{
-    color: var(--accent-color);
-}
-
-.list-html.current{  
+.list-html.current{ 
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
 } 
@@ -59,6 +59,11 @@ ul{
 } 
 
 .block{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
     color: var(--title-text-color);
     text-decoration: none;
 }
@@ -67,16 +72,18 @@ ul{
 }
 
 .email{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
 }
 
-.номер{
-    font-family: 'Roboto';
-    font-style: normal;
+.number{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     text-decoration: none;
@@ -93,11 +100,9 @@ ul{
 }
 
 .section-main {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -122,18 +127,18 @@ ul{
 
 /*  color: rgb(255, 0, 0, 0.8);  4 цифра - прозрачность в % */
 
-.кнопка-осн {
-    font-family: inherit;
-    font-style: normal;
+
+.button-main {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
+    line-height: 1,87;
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
     color: var(--white-color);
+    width: 216px;
+    height: 50px;  
 }
 
 /*descrip*/
@@ -152,53 +157,43 @@ ul{
 }
 
 .title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 
 .text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 /*section-foto*/
 .title-img{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 /*team*/
-.заголовок{
-    font-family: 'Roboto';
-    font-style: normal;
+.team-basic {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
-.імя{
-    font-family: 'Roboto';
-    font-style: normal;
+.first-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -207,12 +202,10 @@ ul{
     color: var(--title-text-color);
 }
 
-.професія{
-    font-family: 'Roboto';
-    font-style: normal;
+.profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -229,10 +222,9 @@ ul{
 
 .logo-footer{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
@@ -243,8 +235,7 @@ ul{
 }
 
 .footer-address{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-style: normal;   /*лише для тега адреси*/
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -254,11 +245,10 @@ ul{
 }
 
 .item-footer{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -266,12 +256,15 @@ ul{
 
 
 
-
-
-
 /* main-portfolio */
 
-.button-head.current{  
+.button-head.current{ 
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--white-color);
     background-color: var(--accent-color);
     width: 73px;
@@ -280,10 +273,9 @@ ul{
 
 .button-portfolio{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -301,21 +293,17 @@ ul{
 /*section-foto*/
 
 .project-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
 .descr {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
